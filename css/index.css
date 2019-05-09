@@ -200,30 +200,142 @@ img.middle-img {
     }
 
     header {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-top: 35px;
-        /* margin-left: 15px; */
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		margin-top: 35px;
+		width: 100%;
     }
 
     header nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 30px; 
+		display: flex;
+		justify-content: center;
+		width: 650px;
+		margin: 40px 0px 0 0;
     }
 
 
     header nav a {
-        margin: 0 22px 0 0;
-        font-size: 14px;
-        color: gray;
-        text-decoration: none;
-    }
+		margin: 0 59px 0 23px;
+		font-size: 16px;
+		color: gray;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.call-to-action {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 48px;
+	}
 
     .call-to-action img {
         display: none;
-    }
+	}
+	
+	.call-to-action-text {
+		vertical-align: top;
+		margin-top: 70px;
+		font-size: 72px;
+		text-align: center;
+		padding: 0px 75px;
+	}
+
+
+
+	button {
+		background-color: white;
+		vertical-align: top;
+		margin-top: 10px;
+		padding: 6px 42px;
+		font-size: 16px;
+		color: black;
+		border: 2px solid #000000;
+		cursor: pointer;
+	}
+
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-top: 1px solid black;
+		margin-top: 47px;
+		padding-top: 36px;
+	}
+
+	.top-text {
+		display: flex;
+		width: 743px;
+	}
+
+	.features {
+		width: 354px;
+		margin-right: 21px;
+		line-height: 18px;
+	}
+
+	.about {
+		width: 356px;
+		margin-right: 6px;
+		line-height: 18px;
+	}
+
+	
+
+	img.middle-img {
+		margin-top: 28px;
+		width: 86.5%;
+	}
+
+	.bottom-text {
+		display: flex;
+		justify-content: space-between;
+		margin: 32px 1px 0;
+		margin-right: 0px;
+	}
+
+	.services {
+		width: 214px;
+		margin-right: 40px;
+		margin-left: 0px;
+		line-height: 18px;
+	}
+
+	.product {
+		width: 214px;
+		margin-right: 40px;
+		line-height: 18px;
+	}
+
+	.vision {
+		width: 214px;
+		margin-right: 22px;
+		line-height: 18px;
+	}
+
+	.contact {
+		/* display: flex; */
+		margin-top: 35px;
+		border-top: 1px solid black;
+		padding: 35px 10px 0;
+	}
+
+	.contact h3 {
+		margin: 0px 0 0 59px;
+	}
+
+	.contact p {
+		margin: 15px 0 0 59px;
+	}
+
+	.copyright {
+		margin: 41px 0;
+		text-align: center;
+		font-size: 16px;
+	}
   }
+
+
