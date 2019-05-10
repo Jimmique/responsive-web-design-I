@@ -338,4 +338,123 @@ img.middle-img {
 	}
   }
 
+  @media(max-width: 500px) { 
+
+    header img.logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    header {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		margin-top: 35px;
+    }
+
+    header nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 650px;
+    	margin: 19.5px 0px 0 0;
+    }
+
+
+    header nav a {
+		font-size: 20px;
+		color: gray;
+		text-decoration: none;
+		border-bottom: 1px solid black;
+		padding: 20px 0;
+		margin: auto 0;
+		text-align: center;
+	}
+	
+	body > div.container > header > nav > a:nth-child(1) {
+		border-top: 1px solid black;
+	}
+
+    .call-to-action img {
+        display: none;
+	}
+	
+	.call-to-action {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 47px;
+	}
+
+	.call-to-action-text {
+		vertical-align: top;
+		margin-top: 49px;
+		font-size: 72px;
+		text-align: center;
+		padding: 0px 75px;
+	}
+
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-top: 1px solid black;
+		margin-top: 47px;
+		padding-top: 58px;
+	}
+
+    body > div > section.main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .top-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 460px;
+    }
+
+    .features {
+		width: 425px;
+		line-height: 18px;
+    }
+
+    .about {
+		width: 425px;
+		margin-top: 45px;
+		line-height: 18px;
+	}
+	
+	img.middle-img {
+		margin-top: 53px;
+		width: 52.5%;
+	}
+
+    .bottom-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 37px;
+        padding: 0 10px;
+    }
+
+    .services {
+        width: 425px;
+    }
+
+    .product {
+        width: 425px;
+    }
+
+    .vision {
+        width: 425px;
+    }
+  }
 
