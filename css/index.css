@@ -127,9 +127,10 @@ button{
 }
 
 .main-content {
-	border-top: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 	margin-top: 76px;
-	padding-top: 40px;
+	padding: 40px 0;
 }
 
 .top-text {
@@ -178,7 +179,6 @@ img.middle-img {
 	
 .contact {
 	margin-top: 57px;
-	border-top: 1px solid black;
 	padding: 39px 10px 0;
 }
 
@@ -231,12 +231,12 @@ img.middle-img {
 		justify-content: center;
 		margin-bottom: 48px;
 	}
+    
 
     .call-to-action img {
         display: none;
-	}
-	
-	.call-to-action-text {
+    }
+    .call-to-action-text {
 		vertical-align: top;
 		margin-top: 70px;
 		font-size: 72px;
@@ -261,9 +261,10 @@ img.middle-img {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		border-top: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
 		margin-top: 47px;
-		padding-top: 36px;
+        padding: 40px 0;
 	}
 
 	.top-text {
@@ -283,7 +284,7 @@ img.middle-img {
 		line-height: 18px;
 	}
 
-	
+
 
 	img.middle-img {
 		margin-top: 28px;
@@ -319,7 +320,6 @@ img.middle-img {
 	.contact {
 		/* display: flex; */
 		margin-top: 35px;
-		border-top: 1px solid black;
 		padding: 35px 10px 0;
 	}
 
@@ -336,9 +336,9 @@ img.middle-img {
 		text-align: center;
 		font-size: 16px;
 	}
-  }
+}
 
-  @media(max-width: 500px) { 
+@media(max-width: 500px) { 
 
     header img.logo {
         display: block;
@@ -371,7 +371,7 @@ img.middle-img {
 		margin: auto 0;
 		text-align: center;
 	}
-	
+
 	body > div.container > header > nav > a:nth-child(1) {
 		border-top: 1px solid black;
 	}
@@ -379,7 +379,7 @@ img.middle-img {
     .call-to-action img {
         display: none;
 	}
-	
+
 	.call-to-action {
 		display: flex;
 		flex-direction: row;
@@ -400,9 +400,12 @@ img.middle-img {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		border-top: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
 		margin-top: 47px;
-		padding-top: 58px;
+        padding-top: 58px;
+        width: 50%;
+        margin: auto;
 	}
 
     body > div > section.main-content {
@@ -430,10 +433,10 @@ img.middle-img {
 		margin-top: 45px;
 		line-height: 18px;
 	}
-	
+
 	img.middle-img {
 		margin-top: 53px;
-		width: 52.5%;
+		width: 104.5%;
 	}
 
     .bottom-text {
@@ -441,20 +444,39 @@ img.middle-img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 37px;
-        padding: 0 10px;
+        margin-top: 30px;
     }
 
     .services {
         width: 425px;
+        margin-right: 37px;
+        line-height: 18px;
     }
 
     .product {
         width: 425px;
+        margin-top: 62px;
+        margin-right: 36px;
+        line-height: 18px;
     }
 
     .vision {
         width: 425px;
+        margin-top: 63px;
+        margin-right: 35px;
+        margin-bottom: 36px;
+        line-height: 18px;
+    }
+
+    .contact {
+        margin-left: 141px;
+        padding: 35px 10px 0;
+        width: 50%;
+    }
+
+    .copyright {
+        margin: 41px 0;
+        text-align: center;
+        font-size: 16px;
     }
   }
-
